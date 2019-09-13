@@ -6,13 +6,6 @@ From:
 
     http://json-schema.org/
 
-| JSON Schema | JSON Hyper-Schema |
-| :--- | :--- |
-| *  Describes your existing data format(s). | * Make any JSON format a hypermedia format with no constraints on document structure |
-| * Provides clear human- and machine- readable documentation. | |
-| * Validates data which is useful for: | |
-| * Automated testing. | |
-| * Ensuring quality of client submitted data.    |      |
 
   **JSON Schema**
 
