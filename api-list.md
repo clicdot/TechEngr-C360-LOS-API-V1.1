@@ -4,33 +4,33 @@ This section contains a systematic list of all API endpoints
 supported by the LOS API.
 
 * [OAuth2 API](api-list/oauth-api.md)
-  * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST) /api/v1.1/oauth/token</span>
+  * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/oauth/token
 * [Service Request Fields API](api-list/srf-fields-api.md)
-  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/serviceRequest/fields</span>
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/fields
 * [Service Request API](api-list/srf-api.md)
-  * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST) /api/v1.1/serviceRequest/form</span>
-  * <span style="background-color: #5493dc; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(PUT) /api/v1.1/serviceRequest/form</span>
+  * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/form
+  * <span style="background-color: #5493dc; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(PUT)</span> /api/v1.1/serviceRequest/form
 * [Service Request Status API](api-list/srf-status-api.md)
-  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/serviceRequest/status/serviceRequestID/:serviceRequestID</span>
-  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/serviceRequest/status/loanID/:loanID</span>
-  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/serviceRequest/status/locationID/:locationID</span>
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/status/serviceRequestID/:serviceRequestID
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/status/loanID/:loanID
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/status/locationID/:locationID
 * [Service Request File List API](api-list/srf-file-list-api.md)
-  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/serviceRequest/files/list/serviceRequestID/:serviceRequestID</span>
-  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/serviceRequest/files/list/loanID/:loanID</span>
-  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/serviceRequest/files/list/locationID/:locationID</span>
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/files/list/serviceRequestID/:serviceRequestID
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/files/list/loanID/:loanID
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/files/list/locationID/:locationID
 * [Service Request File Download API](api-list/srf-file-download-api.md)
-  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/serviceRequest/files/download/:uploadID</span>
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/files/download/:uploadID
 * [Service Request File Upload API](api-list/srf-file-upload-api.md)
-  * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST) /api/v1.1/serviceRequest/files/upload/locationID/:locationID/uploadedBy/:uploadedBy</span>
+  * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/files/upload/locationID/:locationID/uploadedBy/:uploadedBy
 * [Utilities API](api-list/utilities/list.md)
   * [Utilities API: Service Groups](api-list/utilities/service-groups.md)
-    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/utilitiy/serviceGroups</span>
+    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/utilitiy/serviceGroups
   * [Utilities API: Service Types](api-list/utilities/service-types.md)
-    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/utilitiy/serviceTypes</span>
+    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/utilitiy/serviceTypes
   * [Utilities API: Document Types](api-list/utilities/document-types.md)
-    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/utilitiy/documentTypes</span>
+    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/utilitiy/documentTypes
   * [Utilities API: Document Status](api-list/utilities/document-status.md)
-    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET) /api/v1.1/utilitiy/documentStatus</span>
+    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/utilitiy/documentStatus
 
 ## Conventions
 
