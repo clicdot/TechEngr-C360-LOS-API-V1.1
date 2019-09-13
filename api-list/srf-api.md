@@ -121,7 +121,7 @@ returned by the SRF Fields API:
 | :--- | :--- | :--- | :--- |
 | serviceType | Yes | String | The unique value used to identify each type of service. |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-before: always" />
 
 ## Available API Endpoints
 
