@@ -16,6 +16,7 @@
     - [Property Types *](api-list/srffields/srf-fields-propertytypes.md)
     - [Nested Field Relationships *](api-list/srffields/srf-fields-nested-fields.md)
   * [Service Request API](api-list/srf-api.md)
+    - [Collateral Limits](api-list/srf-api/srf-api-collateral-limits.md)
   * [Service Request Status API](api-list/srf-status-api.md)
   * [Service Request File List API](api-list/srf-file-list-api.md)
   * [Service Request File Download API](api-list/srf-file-download-api.md)
