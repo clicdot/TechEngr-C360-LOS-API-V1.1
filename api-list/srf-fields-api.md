@@ -121,7 +121,7 @@ considered literal examples of the data in these elements.
 ```
 
 ******
-<P style="page-break-before: always" />
+<div style="page-break-before: always" />
 
 ## Available API Endpoints
 
