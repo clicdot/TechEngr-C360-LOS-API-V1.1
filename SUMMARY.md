@@ -34,4 +34,5 @@
 * [Appendix 1 - API Transfer Protocol](api-transfer-protocol.md)
 * [Appendix 2 - Request/Response Structure](request-response-structure.md)
 * [Appendix 3 - Technical Review](api-background.md)
+* [Appendix 4 - JSON Schema](json-schema.md)
 

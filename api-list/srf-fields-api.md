@@ -120,7 +120,7 @@ considered literal examples of the data in these elements.
 }
 ```
 
-<div style="page-break-after: always;"></div>
+******
 
 ## Available API Endpoints
 
