@@ -1,4 +1,4 @@
-# SRF File Download API
+# SRF File Upload API
 
 Services performed on collateral properties typically result
 in documentation (_e.g._ reports, legal paperwork, affidavits,
@@ -7,7 +7,7 @@ otherwise made available through--the Collateral 360 system.
 
 This API is responsible for uploading the documents that
 are associated with a service performed on a collateral
-property. It does not support files uploaded to service
+property. It does not support service
 requests that are still in the "draft" status.
 
 ## Available Endpoints

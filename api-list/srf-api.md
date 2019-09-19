@@ -1,12 +1,14 @@
 # SRF API
 
-The SRF API is used to create or replace a draft service request.
+The SRF API v1.1 is used to create or replace a draft & non-draft service request.
 Within Collateral 360, draft service requests are considered
 works-in-progress, and therefore can be saved with incomplete
 information. They are designed to record the user's work during
 the time period when data about a loan or its collateral properties
 are still being acquired, or when decisions are still being made
 regarding the services to perform for each collateral property.
+
+Non-draft service request can be submitted with errors or incomplete information only if the _**processAsWarnings**_ is set to true. If set to true, the LOS system will validate all data to ensure it is properly formatted and the correct data type for that field.
 
 The fields accepted by this API are defined by the JSON schema
 returned by the [SRF Fields API](srf-fields-api.md).
@@ -29,7 +31,7 @@ top-level `meta` element:
 
 | Metadata Field | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| cabinet | Yes | String | The name of the cabinet that will contain the draft SRF. |
+| cabinet | Yes | String | The name of the cabinet that will contain the draft or non-draft SRF. |
 | currency | Yes | String | A three-letter ISO 4217 currency code. This must be in uppercase. |
 | requestedBy | Yes | String | The email address of the user who is issuing this request (for an HTTP `POST` operation, this will be the service request creator). This must be an email address associated with an appropriate user account in Collateral 360. |
 | createdBy | Yes | String | The email address of the user who is creating this request (for an HTTP `POST` operation, this will be the service request creator). This must be an email address associated with an appropriate user account in Collateral 360. |
@@ -64,7 +66,7 @@ top-level `data` element:
 | collaterals | Yes | Array | An array where each element contains the data fields that describe a single real property used as collateral. |
 
 Note that, depending on your configuration options in Collateral
-360, draft SRFs may only be visible to the user who created them.
+360, draft & non-draft SRFs may only be visible to the user who created them.
 In this case, the `requestedBy` field defines this user within
 the original API call used to create a service request.
 
@@ -117,6 +119,8 @@ Each element in the `services` array must be an object that has
 the following values, which are defined in the JSON schema
 returned by the SRF Fields API:
 
+<P style="page-break-before: always" />
+
 | Data Field | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
 | serviceType | Yes | String | The unique value used to identify each type of service. |
@@ -133,7 +137,7 @@ The following endpoints are supported by the SRF API subsystem:
 /api/v1.1/serviceRequest/form
 ```
 
-This endpoint is used to create a new draft service request, and
+This endpoint is used to create a new service request, and
 is invoked via the HTTP `POST` method.
 
 #### Request
@@ -296,7 +300,7 @@ in structure to those sent to the SRF creation endpoint
 
 ## Handling of Invalid Data
 
-Each draft service request is considered to be a
+Each draft & non-draft service request is considered to be a
 work-in-progress, and most data validation rules are not
 executed while a service request is in the draft status.
 
@@ -312,6 +316,13 @@ to occur:
 
 In either case, the system may generate a warning in the
 API response.
+
+Invalid data using _**processAsWarnings**_ is slightly different.
+
+  * _**processAsWarnings**_ set to TRUE
+    - If set to TRUE, all validation errors which would have prevented the creation of the service are presented as warnings but the service request is created with the error much like the draft service request. However, the error warnings are much more detailed.
+  * _**processAsWarnings**_ set to FALSE
+    - If set to FALSE, all validation errors would prevent the service request from being created.
 
 Note that, due to internal implementation details of the API
 system, an invalid user account email address should always
