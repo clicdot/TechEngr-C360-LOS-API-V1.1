@@ -23,11 +23,10 @@
   * [Service Request File Download API](api-list/srf-file-download-api.md)
   * [Service Request File Upload API *](api-list/srf-file-upload-api.md)
   * [Utilities API *](api-list/utilities/list.md)
-    - [Utilities API: Service Groups *](api-list/utilities/service-groups.md)
     - [Utilities API: Service Types *](api-list/utilities/service-types.md)
     - [Utilities API: Document Types *](api-list/utilities/document-types.md)
     - [Utilities API: Document Status *](api-list/utilities/document-status.md)
-* New Document Items
+* What's New
   * [Service Request API - Non-Draft *](api-list/srf-api.md)
   * [Service Request File Upload API *](api-list/srf-file-upload-api.md)
   * [Service Request Fields - Property Types *](api-list/srffields/srf-fields-propertytypes.md)

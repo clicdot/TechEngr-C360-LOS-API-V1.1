@@ -23,8 +23,6 @@ supported by the LOS API.
 * [Service Request File Upload API](api-list/srf-file-upload-api.md)
   * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/files/upload/locationID/:locationID/uploadedBy/:uploadedBy
 * [Utilities API](api-list/utilities/list.md)
-  * [Utilities API: Service Groups](api-list/utilities/service-groups.md)
-    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/utilitiy/serviceGroups
   * [Utilities API: Service Types](api-list/utilities/service-types.md)
     * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/utilitiy/serviceTypes
   * [Utilities API: Document Types](api-list/utilities/document-types.md)

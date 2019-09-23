@@ -24,11 +24,7 @@ This endpoint is accessible via the HTTP `POST` method. A
 successful invocation will return the contents of the file
 in the response body.
 
-The file will be downloaded automatically in compatible
-user agents. Depending on the architecture of your client
-application, this may occur automatically, or you may have
-to examine the response and store its contents using your
-own application code.
+The files uploaded can be downloaded within C360 within the File Manager UI.
 
 #### Request
 
@@ -45,13 +41,13 @@ own application code.
 | :--- | :--- | :--- | :--- |
 | file | Integer | Yes | The ID of uploaded file. |
 | preparedBy | string | No | The email address of file uploader. |
-| reportTitle | string | No | The email address of file uploader. |
-| reportDate | string | No | The email address of file uploader. |
-| displayFileName | string | No | The email address of file uploader. |
-| serviceGroups | string | No | The email address of file uploader. |
-| serviceTypes | string | No | The email address of file uploader. |
-| documentTypes | string | No | The email address of file uploader. |
-| documentStatus | string | No | The email address of file uploader. |
+| reportTitle | string | No | Title of the Report |
+| reportDate | string | No | Report Date |
+| displayFileName | string | No | The File Name if you do not want to display original file name |
+| serviceGroups | string | No | Stringified Array or Objects that contain the Service Groups |
+| serviceTypes | string | No | Stringified Array or Objects that contain the Service Types |
+| documentTypes | string | No | Stringified Array or Objects that contain the Document Types |
+| documentStatus | string | No | Stringified Objects that contain the Document Status |
 
 ##### Query String Parameters
 

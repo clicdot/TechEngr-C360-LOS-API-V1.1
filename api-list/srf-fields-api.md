@@ -62,6 +62,28 @@ considered literal examples of the data in these elements.
           "type": "string",
           "title": "The Created By Schema",
           "format": "email"
+        },
+        "createdBy": {
+          "$id": "/properties/meta/properties/createdBy",
+          "type": "string",
+          "title": "The Created By Schema",
+          "minLength": 1,
+          "format": "email"
+        },
+        "srfAction": {
+          "$id": "/properties/meta/properties/srfAction",
+          "type": "string",
+          "title": "The Created By Schema",
+          "minLength": 1,
+          "enum": ["DARFT", "PROCURE"]
+        },
+        "processAsWarnings": {
+          "$id": "/properties/meta/properties/processAsWarnings",
+          "type": "boolean",
+          "title": "The Created By Schema",
+          "minLength": 1,
+          "default": true,
+          "enum": [true, false]
         }
       }
     },
@@ -258,7 +280,29 @@ example response follows.
                 "type": "string",
                 "title": "The Requested By Schema ",
                 "format": "email"
-              }
+              },
+              "createdBy": {
+								"$id": "/properties/meta/properties/createdBy",
+								"type": "string",
+								"title": "The Created By Schema",
+								"minLength": 1,
+								"format": "email"
+							},
+							"srfAction": {
+								"$id": "/properties/meta/properties/srfAction",
+								"type": "string",
+								"title": "The Created By Schema",
+								"minLength": 1,
+								"enum": ["DARFT", "PROCURE"]
+							},
+							"processAsWarnings": {
+								"$id": "/properties/meta/properties/processAsWarnings",
+								"type": "boolean",
+								"title": "The Created By Schema",
+								"minLength": 1,
+								"default": true,
+								"enum": [true, false]
+							}
             },
             "required": [
               "cabinet",
@@ -358,5 +402,13 @@ The available cabinet names will be provided in the
 JSON schema returned by this endpoint, so that client
 applications can present the list of cabinets to their
 end users for selection.
+
+## Service Types
+
+A list of available Service Types is provided in the JSON Schema under the `definitions` object.
+
+The Service Types listed in the JSON Schema is a subset of the full Service Types, which can be retrieved using the Utility API ServiceTypes. This subset list is the Service Types that can be used to create the Service Request Form.
+
+The Service Types in the Utility API is the full list that can be used to augment the Service Request Form.
 
 <div style="page-break-after: always;"></div>
