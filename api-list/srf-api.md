@@ -8,7 +8,7 @@ the time period when data about a loan or its collateral properties
 are still being acquired, or when decisions are still being made
 regarding the services to perform for each collateral property.
 
-Non-draft service request can be submitted with errors or incomplete information only if the _**processAsWarnings**_ is set to true. If set to true, the LOS system will validate all data to ensure it is properly formatted and the correct data type for that field.
+Non-draft service request can be submitted with errors or incomplete information only if the _**processAsWarnings**_ is set to `true.` If set to `false`, the LOS system will validate all data to ensure it is properly formatted and the correct data type for that field.
 
 The fields accepted by this API are defined by the JSON schema
 returned by the [SRF Fields API](srf-fields-api.md).
