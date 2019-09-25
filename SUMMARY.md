@@ -30,7 +30,7 @@
 * What's New
   * [Service Request API - Non-Draft *](api-list/srf-api.md)
   * [Service Request API - Collateral Limits *](api-list/srf-api/srf-api-collateral-limits.md)
-  * [Service Request API - Service Request Submission Queue Processing *](api-list/srf-api/srf-api-queue.md)
+  * [Service Request API - Submission Queue Processing *](api-list/srf-api/srf-api-queue.md)
   * [Service Request File Upload API *](api-list/srf-file-upload-api.md)
   * [Service Request Fields - Property Types *](api-list/srffields/srf-fields-propertytypes.md)
   * [Service Request Fields - Nested Field Relationships *](api-list/srffields/srf-fields-nested-fields.md)
