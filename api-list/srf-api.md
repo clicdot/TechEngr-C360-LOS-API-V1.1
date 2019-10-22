@@ -1,6 +1,6 @@
 # SRF API
 
-The SRF API v1.1 is used to create or replace a draft & non-draft service request.
+The SRF API v1.1 is used to create a draft & non-draft service request.
 Within Collateral 360, draft service requests are considered
 works-in-progress, and therefore can be saved with incomplete
 information. They are designed to record the user's work during

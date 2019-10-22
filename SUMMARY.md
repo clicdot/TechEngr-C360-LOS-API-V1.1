@@ -20,6 +20,7 @@
     - [Collateral Limits *](api-list/srf-api/srf-api-collateral-limits.md)
     - [Service Request Submission Queue Processing *](api-list/srf-api/srf-api-queue.md)
   * [Service Request Status API](api-list/srf-status-api.md)
+    - [Service Request Status API - Engagement Vendors *](api-list/srf-status-api-vendors.md)
   * [Service Request File List API](api-list/srf-file-list-api.md)
   * [Service Request File Download API](api-list/srf-file-download-api.md)
   * [Service Request File Upload API *](api-list/srf-file-upload-api.md)
