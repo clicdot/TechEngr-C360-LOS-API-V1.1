@@ -19,6 +19,8 @@ The general format is described in the following sections. Any
 differences in syntax or usage between these two use cases will
 be noted.
 
+**_NOTE: Currently Service Request API does not support International Addressing. However International Addresses can be submitted by setting 'processAsWarnings' as TRUE._**
+
 ## API Request Structure
 
 API requests issued to create or modify a service request all have

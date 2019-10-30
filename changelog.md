@@ -9,5 +9,6 @@ The following changelog contains the revision history of this document:
 
 | Revision | Date | Primary Authors | Overview of Changes |
 | :--- | :--- | :--- | :--- |
+| 1.0.1 | Oct. 30, 2019 | Philip Choi | Added no international support for addresses info to [SRF API](api-list/srf-api.md) introduction |
 | 1.0.1 | Oct. 20, 2019 | Philip Choi | Added engagement vendor details to status API |
 | 1.0.0 | Jul. 25, 2019 | Philip Choi | Initial document creation: defined technical specifications for all API v1.1 endpoints. |

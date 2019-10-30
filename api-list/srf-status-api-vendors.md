@@ -12,7 +12,7 @@ In version 1.1, EDR has released Vendor information in the Status API. For the e
   or
     - `"hasEngagedVendor": "No"`
        - No when there is no vendor engaged, and it's not a 3rd party service
-2. `vendor` which is an array
+2. `vendor` which is an object
     ```json
     "vendor": {
         "accountId": 63404,
