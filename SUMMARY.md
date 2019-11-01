@@ -16,6 +16,8 @@
     - [Property Types *](api-list/srffields/srf-fields-propertytypes.md)
     - [Nested Field Relationships *](api-list/srffields/srf-fields-nested-fields.md)
     - [Multiple JSON Template Versions *](api-list/srffields/srf-fields-json-versions.md)
+  * [Collateral Overview Fields API](api-list/srf-fields-co-api.md)
+  * [Service Request Fields Collateral Overview *](api-list/srf-fields-co-api.md)
   * [Service Request API](api-list/srf-api.md)
     - [Collateral Limits *](api-list/srf-api/srf-api-collateral-limits.md)
     - [Service Request Submission Queue Processing *](api-list/srf-api/srf-api-queue.md)
