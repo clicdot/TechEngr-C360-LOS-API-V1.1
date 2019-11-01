@@ -31,8 +31,10 @@ applications should be tolerant of additions to the schema.
 
 For the most part, the JSON Schema and JSON Templates will not deviate from _Service Request Fields_. The main differences are two:
 
-1) Collateral Overview Fields will potentially have additional fields not allowed in Service Request. Therefore it is typical for the _Collateral Overview Fields_ to have more fields objects.
-2) Collateral Overview Fields was designed for a _PATCH_ operation for Service Request Fields.
+1. Collateral Overview Fields will potentially have additional fields not allowed in Service Request. Therefore it is typical for the _Collateral Overview Fields_ to have more fields objects.
+2. Collateral Overview Fields was designed for a _PATCH_ operation for Service Request Fields. Therefore the only required field will be the _**updatedBy**_ field in the meta object.
+
+In addition to specifying the _**updatedBy**_, at least one object from _**transaction**_ or _**collaterals**_ must be provided.
 
 ## The JSON Schema Model
 
